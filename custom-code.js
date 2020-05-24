@@ -3,15 +3,11 @@ window._harvestPlatformConfig = {
     "skipStyling": false
 };
 
-function urlchanged(){
-  console.log("hash changed running!");
-  
+function urlchanged(){  
   var path = window.location.pathname;
-  console.log("Path is: "+path);
   
   // Check if we are viewing pulse details panel
   if ( path.includes("/pulses/") ) {
-    console.log("Condition Matches");
     
     // remove any existing timer buttons
    $('.harvest-timer').remove();
