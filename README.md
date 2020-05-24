@@ -19,5 +19,11 @@ Adds a Harvest time tracking button inside the right side panel for Monday.com t
 1. Install the above plugin in Chrome
 2. Browse over to any page in your monday.com account
 3. Click the CJS extension icon in your chrome toolbar to open the extension (might be hiding under the menu 3 dots icon)
-4. Slide the toggle to enable in top right, paste in the [custom javascript code](https://raw.githubusercontent.com/jkushner/monday-com-harvest-integration/master/custom-code.js), and press save. Then refresh and when you open a task, you'll see the little orange timer button in the top right of the sidebar.
+4. Slide the toggle to enable in top right. Then click the "your own external scrips" link and paste in the following into the external scripts window:
+`//platform.harvestapp.com/assets/platform.js;`
+5. In the main plugin window where it says paste your code here, paste in the [custom javascript code](https://raw.githubusercontent.com/jkushner/monday-com-harvest-integration/master/custom-code.js), and press save. 
+6. Then refresh and when you open a task, you'll see the little orange timer button in the top right of the sidebar.
 
+## FAQs
+* Do I need to install the Harvest chrome plugin too?
+Nope, not required for this to work.
