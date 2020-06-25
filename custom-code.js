@@ -13,7 +13,7 @@ function urlchanged(){
    $('.harvest-timer').remove();
     
     var tasktitle = $(".title-wrapper").find(".multiline-ellipsis-component").text();
-    var taskurl = "https://jakelouis.monday.com/"+path;
+    var taskurl = "https://YOUR-SUBDOMAIN-HERE.monday.com/"+path;
     var taskid = path.substring(path.lastIndexOf('/')+1);
     var projectid = location.pathname.split('/')[2];
     var projectname = $("#board-header .board-name").find(".ds-text-component").text();
