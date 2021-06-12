@@ -14,7 +14,7 @@ Adds a Harvest time tracking button inside the right side panel for Monday.com t
 * Create a new project in Harvest if there isn't one already linked in just one click from the top right corner of the Harvest popup
 
 ## How to install
-* This plugin requires the Chrome Custom Javascript browser extension from here: https://chrome.google.com/webstore/detail/custom-javascript-for-web/poakhlngfciodnhlhhgnaaelnpjljija?hl=en
+* This plugin requires the Chrome Custom Javascript browser extension from here: https://chrome.google.com/webstore/detail/custom-javascript-for-web/ddbjnfjiigjmcpcpkmhogomapikjbjdk?hl=en
 
 1. Install the above plugin in Chrome
 2. Browse over to any page in your monday.com account
